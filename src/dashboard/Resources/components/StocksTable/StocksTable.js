@@ -223,7 +223,6 @@ class ResourceTable extends Component {
           dataSource={stocks.data}
           loading={loadingStocks}
           rowKey={record => record._id}
-          scroll={{ y: 600 }}
           size="middle"
           columns={getColumns(this.handleAdjustClick)}
         />

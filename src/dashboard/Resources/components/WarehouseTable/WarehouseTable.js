@@ -110,7 +110,6 @@ class WarehouseTable extends Component {
           dataSource={warehouses.data}
           loading={loading}
           rowKey={record => record._id}
-          scroll={{ y: 600 }}
           size="middle"
           columns={getColumns(this.handleOnEditClick)}
         />

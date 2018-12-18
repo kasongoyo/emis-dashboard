@@ -143,7 +143,6 @@ class ItemTable extends Component {
           dataSource={items.data}
           loading={loadingItems}
           rowKey={record => record._id}
-          scroll={{ y: 600 }}
           size="middle"
           columns={getColumns(this.handleOnEditClick)}
         />
